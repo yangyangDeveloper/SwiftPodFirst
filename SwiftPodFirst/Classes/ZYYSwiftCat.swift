@@ -8,9 +8,9 @@
 import UIKit
 
 @objc public class ZYYSwiftCat: NSObject {
-    @objc let name = "cat"
+    @objc public let name = "cat"
     let age = 4
-    @objc func run() {
+    @objc public func run() {
         print("zyyswiftcat run")
     }
 }
