@@ -8,7 +8,7 @@
 import UIKit
 
 @objc public class ZYYSwiftCat: NSObject {
-    func run() {
+    @objc func run() {
         print("zyyswiftcat run")
     }
 }
