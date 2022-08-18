@@ -8,6 +8,8 @@
 import UIKit
 
 @objc public class ZYYSwiftCat: NSObject {
+    @objc let name = "cat"
+    let age = 4
     @objc func run() {
         print("zyyswiftcat run")
     }
