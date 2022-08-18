@@ -7,6 +7,8 @@
 
 import UIKit
 
-class ZYYSwiftDog: NSObject {
-
+@objc class ZYYSwiftDog: NSObject {
+    func run() {
+        print("ZYYSwiftDog run")
+    }
 }
